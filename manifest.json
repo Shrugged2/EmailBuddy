@@ -7,10 +7,12 @@
     "activeTab",
     "contextMenus",
     "gmail",
-    "identity"
+    "identity",
+    "tabs",
+    "https://mail.google.com/*"
   ],
   "browser_action": {
-    "default_icon": "mail-happy.svg",
+    "default_icon": "icon.png",
     "default_title": "Email Buddy",
     "default_popup": "popup.html"
   }
