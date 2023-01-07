@@ -1,7 +1,15 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 
-// Include the Google Analytics script in the HTML file
+// Google Analytics script in the HTML file
 <script src="https://www.google-analytics.com/analytics.js"></script>
+
+// Get the user's Google Account ID
+chrome.identity.getProfileUserInfo(userInfo => {
+  const userId = userInfo.id;
+
+// Send the user's Google Account ID to Google Analytics
+  ga('set', 'userId', userId);
+});
 
 // Initialize the Google Analytics tracker
 ga('create', 'UA-YOUR_TRACKING_ID', 'auto');
