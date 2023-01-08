@@ -13,6 +13,11 @@ Then install dependencies
 npm install
 ```
 
+Run the server so the extension can communicate with ChatGPT.
+
+```bash
+node server.js
+```
 
 Add the extension
 
