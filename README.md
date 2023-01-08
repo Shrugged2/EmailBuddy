@@ -3,6 +3,17 @@
 A Chrome extension that adds ChatGPT to your email
 
 
+## Install
+
+First clone this repo on your local machine
+
+Then install dependencies
+
+```bash
+npm install
+```
+
+
 Add the extension
 
 1. Go to chrome://extensions in your Google Chrome browser
