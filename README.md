@@ -30,4 +30,5 @@ Add the extension
 
 
 To Do: Lots
+
 But mostly, connecting to their API or using this [chatgpt-api](https://github.com/transitive-bullshit/chatgpt-api) open source API. 
