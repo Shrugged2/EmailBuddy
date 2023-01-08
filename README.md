@@ -30,4 +30,4 @@ Add the extension
 
 
 To Do: Lots
-BUt mostly, connecting to their API or using this open source API. [chatgpt-api](https://github.com/transitive-bullshit/chatgpt-api)
+But mostly, connecting to their API or using this [chatgpt-api](https://github.com/transitive-bullshit/chatgpt-api) open source API. 
