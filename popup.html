@@ -1,26 +1,5 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 
-// Google Analytics script in the HTML file
-<script src="https://www.google-analytics.com/analytics.js"></script>
-
-// Get the user's Google Account ID. 
-
-//Need to update and add in google stuff. how do I manage accounts here?
-
-chrome.identity.getProfileUserInfo(userInfo => {
-  const userId = userInfo.id;
-
-// Send the user's Google Account ID to Google Analytics
-  ga('set', 'userId', userId);
-});
-
-// Initialize the Google Analytics tracker
-ga('create', 'UA-YOUR_TRACKING_ID', 'auto');
-
-// Track the extension usage event
-ga('send', 'event', 'Extension', 'Usage');
-
-
 <script src="gpt.js"></script>
 <!DOCTYPE html>
 <html>
