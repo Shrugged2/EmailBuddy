@@ -17,6 +17,24 @@ function generateText(prompt) {
   });
 }
 
+// Get the user's Google Account ID. 
+
+//Need to update and add in google stuff. how do I manage accounts here?
+
+chrome.identity.getProfileUserInfo(userInfo => {
+  const userId = userInfo.id;
+
+// Send the user's Google Account ID to Google Analytics
+  ga('set', 'userId', userId);
+});
+
+// Initialize the Google Analytics tracker
+ga('create', 'UA-YOUR_TRACKING_ID', 'auto');
+
+// Track the extension usage event
+ga('send', 'event', 'Extension', 'Usage');
+
+
 // Get prompt from email
 chrome.tabs.query({ active: true, currentWindow: true }, tabs => {
   const tab = tabs[0];
