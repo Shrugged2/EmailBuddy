@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Email Buddy",
   "version": "1.0",
-  "description": "An email assistant to help with all your day to day tasks.",
+  "description": "An email assistant to help with your day to day emails.",
   "permissions": [
     "activeTab",
     "contextMenus",
