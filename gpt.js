@@ -7,6 +7,7 @@ function generateText(prompt) {
     },
     body: JSON.stringify({
       "prompt": prompt,
+        // Maybe new model? Could be a cost saving thing here
       "model": "text-davinci-002",
       "max_tokens": 100
     })
