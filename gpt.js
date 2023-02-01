@@ -8,6 +8,10 @@ function generateText(prompt) {
     body: JSON.stringify({
       "prompt": prompt,
         // Maybe new model? Could be a cost saving thing here
+      // text-davinci-003	- Most capable GPT-3 model. Can do any task the other models can do, often with higher quality, longer output and better instruction-following. Also supports inserting completions within text.	4,000 tokens	Up to Jun 2021
+      // text-curie-001	 - Very capable, but faster and lower cost than Davinci.	2,048 tokens	Up to Oct 2019
+      // text-babbage-001	- Capable of straightforward tasks, very fast, and lower cost.	2,048 tokens	Up to Oct 2019
+text-ada-001
       "model": "text-davinci-002",
       "max_tokens": 100
     })
